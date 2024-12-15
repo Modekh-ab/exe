@@ -32,7 +32,5 @@ public class ItemRegistry {
     @SubscribeEvent
     public static void registerModel(ModelRegistryEvent event) {
         ITEMS.forEach(item -> Exe.proxy.registerItemRenderer(item, 0, "exe_crystall"));
-//        ITEMS.forEach(item -> ModelLoader.setCustomModelResourceLocation(item, 0,
-//                new ModelResourceLocation(item.getRegistryName(), "normal")));
     }
 }
