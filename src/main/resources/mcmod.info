@@ -1,0 +1,16 @@
+[
+{
+  "modid": "exe",
+  "name": "Exe",
+  "description": "Exe. Like 'executable'. Or 'example'.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Modekh"],
+  "credits": "",
+  "logoFile": "logo.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]
