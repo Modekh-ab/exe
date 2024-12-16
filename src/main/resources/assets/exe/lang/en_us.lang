@@ -1,3 +1,8 @@
 itemGroup.exe=Exe
 
-item.exe_crystall.name=Exe Crystall
+item.exe_crystal.name=Exe Crystal
+
+item.exe_helmet.name=Exe Helmet
+item.exe_chestplate.name=Exe Chestplate
+item.exe_leggings.name=Exe Leggings
+item.exe_boots.name=Exe Boots

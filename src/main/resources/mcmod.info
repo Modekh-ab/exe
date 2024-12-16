@@ -4,7 +4,7 @@
   "name": "Exe",
   "description": "Exe. Like 'executable'. Or 'example'.",
   "version": "${version}",
-  "mcversion": "${mcversion}",
+  "mcversion": "${mc_version}",
   "url": "",
   "updateUrl": "",
   "authorList": ["Modekh"],

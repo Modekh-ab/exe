@@ -17,7 +17,7 @@ public class ItemBase extends Item {
     public ItemBase(String id) {
         setUnlocalizedName(id);
         setRegistryName(Reference.MOD_ID, id);
-        setCreativeTab(ExeCreativeTab.tab);
+        setCreativeTab(ExeCreativeTab.TAB);
 
         ItemRegistry.registerItem(this);
     }
