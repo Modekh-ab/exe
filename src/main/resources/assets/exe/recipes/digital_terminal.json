@@ -1,0 +1,23 @@
+{
+    "result": {
+        "item": "exe:digital_terminal"
+    },
+    "type": "forge:ore_shaped",
+    "pattern": [
+        "F",
+        "#",
+        "S"
+    ],
+    "key": {
+        "#": {
+            "type": "appliedenergistics2:part",
+            "part": "part.terminal"
+        },
+        "F": {
+            "item": "fluxnetworks:flux"
+        },
+        "S": {
+            "item": "divinerpg:shadow_stone"
+        }
+    }
+}

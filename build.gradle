@@ -44,9 +44,10 @@ dependencies {
     def path = 'libs/'
 
     implementation files(
-            path + 'AdditionalEnchantedMiner-1.12.2-12.5.7.jar',
+            path + 'appliedenergistics2-rv6-stable-7.jar',
             path + 'CosmeticArmorReworked-1.12.2-v5a.jar',
-            path + 'DivineRPG-1.7.1.jar'
+            path + 'DivineRPG-1.7.1.jar',
+            path + 'FluxNetworks-1.12.2-4.1.1.34.jar'
     )
 }
 

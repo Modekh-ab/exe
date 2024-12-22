@@ -4,7 +4,7 @@ import com.google.common.util.concurrent.ListenableFuture;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 
-public abstract class BaseProxy {
+public abstract class CommonProxy {
     public void registerRenderer(Item item, int meta, String id) {
     }
 

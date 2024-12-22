@@ -1,8 +1,20 @@
 itemGroup.exe=Exe
 
+item.digital_terminal.name=Digital Terminal
+item.digital_terminal.info.0=Physical terminal to access some data from remote network.\nTry this on §aSecurity Station§r
+item.digital_terminal.info.1=Contains: §cskinten.exe§\n§eMay be dangerous!§r
+item.digital_terminal.message=§eAttention:§7 the file you're gonna unpack is §cdangerous§r!
 item.exe_crystal.name=Exe Crystal
+item.exe_stone.name=Exe Stone
+item.exe_stone.info=It's not an egg -_-
 
 item.exe_helmet.name=Exe Helmet
 item.exe_chestplate.name=Exe Chestplate
 item.exe_leggings.name=Exe Leggings
 item.exe_boots.name=Exe Boots
+
+gui.exit=Exit
+gui.ok=Ok
+gui.title=Digital Terminal
+
+tooltip.press=Press <

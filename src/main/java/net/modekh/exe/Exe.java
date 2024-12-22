@@ -1,31 +1,44 @@
 package net.modekh.exe;
 
-import com.yogpc.qp.QuarryPlus;
 import divinerpg.DivineRPG;
+import lain.mods.cos.GuiHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.network.NetworkRegistry;
+import net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper;
 import net.modekh.exe.proxy.ClientProxy;
+import net.modekh.exe.utils.functions.CommonUtils;
 import net.modekh.exe.utils.Reference;
+import sonar.fluxnetworks.FluxNetworks;
 
 @Mod(
         modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION,
         dependencies =
+                "required-after:appliedenergistics2;" +
                 "required-after:cosmeticarmorreworked;" +
                 "required-after:" + DivineRPG.MODID + ";" +
-                "required-after:" + QuarryPlus.modID
+                "required-after:" + FluxNetworks.MODID
 )
 public class Exe {
+    @Mod.Instance(Reference.MOD_ID)
+    public static Exe instance;
+
     @SidedProxy(
             clientSide = "net.modekh.exe.proxy.ClientProxy",
-            serverSide = "net.modekh.exe.proxy.BaseProxy"
+            serverSide = "net.modekh.exe.proxy.CommonProxy"
     )
     public static ClientProxy proxy = new ClientProxy();
 
+//    public static SimpleNetworkWrapper network;
+
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
+//        network = NetworkRegistry.INSTANCE.newSimpleChannel(Reference.MOD_ID);
+
+        CommonUtils.loadGrinderRecipes(); // recipes for AE2 grinder
     }
 
     @EventHandler

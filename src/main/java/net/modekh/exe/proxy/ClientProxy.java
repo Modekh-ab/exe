@@ -7,7 +7,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.model.ModelLoader;
 
-public class ClientProxy extends BaseProxy {
+public class ClientProxy extends CommonProxy {
     @Override
     public void registerRenderer(Item item, int meta, String id) {
         ModelLoader.setCustomModelResourceLocation(item, meta,

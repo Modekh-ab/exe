@@ -1,10 +1,11 @@
-package net.modekh.exe.utils;
+package net.modekh.exe.utils.customization;
 
 import net.minecraft.util.text.TextFormatting;
 import net.minecraftforge.common.IRarity;
 
 public enum ExeRarity implements IRarity {
-    EXE_GOLD(TextFormatting.GOLD, "exe_gold");
+    EXE_GOLD(TextFormatting.GOLD, "exe_gold"),
+    EXE_GREEN(TextFormatting.GREEN, "exe_green");
 
     public final TextFormatting rarityColor;
     public final String rarityName;
