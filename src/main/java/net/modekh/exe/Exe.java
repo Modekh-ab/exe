@@ -1,7 +1,6 @@
 package net.modekh.exe;
 
 import divinerpg.DivineRPG;
-import lain.mods.cos.GuiHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -9,6 +8,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.network.NetworkRegistry;
 import net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper;
+import net.modekh.exe.client.gui.GuiHandler;
 import net.modekh.exe.proxy.ClientProxy;
 import net.modekh.exe.utils.functions.CommonUtils;
 import net.modekh.exe.utils.Reference;
@@ -26,10 +26,7 @@ public class Exe {
     @Mod.Instance(Reference.MOD_ID)
     public static Exe instance;
 
-    @SidedProxy(
-            clientSide = "net.modekh.exe.proxy.ClientProxy",
-            serverSide = "net.modekh.exe.proxy.CommonProxy"
-    )
+    @SidedProxy(clientSide = Reference.CLIENT, serverSide = Reference.SERVER)
     public static ClientProxy proxy = new ClientProxy();
 
 //    public static SimpleNetworkWrapper network;
@@ -43,5 +40,6 @@ public class Exe {
 
     @EventHandler
     public void init(FMLInitializationEvent event) {
+        NetworkRegistry.INSTANCE.registerGuiHandler(instance, new GuiHandler());
     }
 }

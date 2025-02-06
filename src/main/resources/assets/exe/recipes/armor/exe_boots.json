@@ -1,0 +1,28 @@
+{
+    "result": {
+        "item": "exe:exe_boots"
+    },
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "   ",
+        "C#A",
+        "SPS"
+    ],
+    "key": {
+        "#": {
+            "item": "divinerpg:angelic_boots"
+        },
+        "S": {
+            "item": "divinerpg:corrupted_stone"
+        },
+        "C": {
+            "item": "exe:exe_crystal"
+        },
+        "P": {
+            "item": "exe:punk_dirt"
+        },
+        "A": {
+            "item": "biomesoplenty:terrestrial_artifact"
+        }
+    }
+}

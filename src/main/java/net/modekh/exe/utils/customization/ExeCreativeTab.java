@@ -2,7 +2,7 @@ package net.modekh.exe.utils.customization;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
-import net.modekh.exe.init.ItemRegistry;
+import net.modekh.exe.registry.ItemRegistry;
 import net.modekh.exe.utils.Reference;
 
 public class ExeCreativeTab {

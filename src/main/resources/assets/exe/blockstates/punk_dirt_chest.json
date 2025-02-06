@@ -1,0 +1,9 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "exe:punk_dirt_chest"
+      }
+    }
+  ]
+}

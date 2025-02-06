@@ -1,0 +1,34 @@
+{
+    "result": {
+        "item": "exe:exe_chestplate"
+    },
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "HEH",
+        "C#A",
+        "SPS"
+    ],
+    "key": {
+        "#": {
+            "item": "divinerpg:angelic_chestplate"
+        },
+        "H": {
+            "item": "divinerpg:healing_stone"
+        },
+        "E": {
+            "item": "iceandfire:cockatrice_scepter"
+        },
+        "S": {
+            "item": "divinerpg:corrupted_stone"
+        },
+        "C": {
+            "item": "exe:exe_crystal"
+        },
+        "P": {
+            "item": "exe:punk_dirt"
+        },
+        "A": {
+            "item": "minecraft:ghast_tear"
+        }
+    }
+}

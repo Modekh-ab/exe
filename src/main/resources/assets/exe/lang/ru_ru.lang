@@ -1,0 +1,29 @@
+itemGroup.exe=Exe
+
+item.digital_terminal.name=Цифровой терминал
+item.digital_terminal.info.0.0=Терминал для получения информации из удалённой сети.
+item.digital_terminal.info.0.1=Попробуй это в §3МЭ терминале безопасности§r
+item.digital_terminal.info.1.0=Содержит: §cskinten.exe§r
+item.digital_terminal.info.1.1=§eМожет быть вредоносным!§r
+item.digital_terminal.message=§Внимание:§7 файл, который Вы собираетесь открыть, §cопасен§r!
+item.exe_crystal.name=Кристалл Exe
+item.exe_stone.name=Камень Exe
+item.exe_stone.info=Это не яйцо -_-
+
+item.exe_helmet.name=Шлем Exe
+item.exe_chestplate.name=Нагрудник Exe
+item.exe_leggings.name=Поножи Exe
+item.exe_boots.name=Боты Exe
+
+container.punk_dirt_chest.name=Грязевой сундук 6686!
+
+tile.punk_dirt_chest.name=Грязевой сундук 6686!
+tile.punk_dirt.name=Панковая грязь
+tile.punk_dirt.info=Можно поставить
+
+gui.punk_dirt_chest.title=Грязевой сундук 6686!
+gui.punk_dirt_chest.text=⬑ (x, y): (56, 17)
+
+tooltip.press=Жми <
+
+punk_dirt_chest.name=Грязевой сундук 6686!

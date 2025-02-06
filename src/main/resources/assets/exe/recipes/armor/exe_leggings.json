@@ -1,0 +1,31 @@
+{
+    "result": {
+        "item": "exe:exe_leggings"
+    },
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " H ",
+        "C#A",
+        "SPS"
+    ],
+    "key": {
+        "#": {
+            "item": "divinerpg:angelic_leggings"
+        },
+        "H": {
+            "item": "divinerpg:healing_stone"
+        },
+        "S": {
+            "item": "divinerpg:corrupted_stone"
+        },
+        "C": {
+            "item": "exe:exe_crystal"
+        },
+        "P": {
+            "item": "exe:punk_dirt"
+        },
+        "A": {
+            "item": "divinerpg:skythern_dust"
+        }
+    }
+}

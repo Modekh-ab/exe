@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "exe:blocks/punk_dirt_chest/break"
+  }
+}

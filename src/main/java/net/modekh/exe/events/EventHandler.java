@@ -1,23 +1,17 @@
 package net.modekh.exe.events;
 
-import appeng.client.gui.implementations.GuiSecurityStation;
 import divinerpg.api.ArmorHandlers;
 import lain.mods.cos.CosmeticArmorReworked;
 import lain.mods.cos.inventory.InventoryCosArmor;
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.gui.GuiMainMenu;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.IInventory;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
-import net.minecraftforge.client.event.GuiOpenEvent;
 import net.minecraftforge.event.entity.living.LivingFallEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent;
-import net.minecraftforge.fml.relauncher.Side;
-import net.modekh.exe.items.base.ArmorBase;
-import net.modekh.exe.items.custom.DigitalTerminalItem;
+import net.modekh.exe.objects.items.base.ArmorBase;
 import net.modekh.exe.utils.Reference;
 
 public class EventHandler {

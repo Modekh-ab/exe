@@ -1,0 +1,11 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "up": "exe:blocks/punk_dirt_chest/top",
+    "down": "exe:blocks/punk_dirt_chest/bottom",
+    "north": "exe:blocks/punk_dirt_chest/front",
+    "east": "exe:blocks/punk_dirt_chest/side",
+    "south": "exe:blocks/punk_dirt_chest/side",
+    "west": "exe:blocks/punk_dirt_chest/side"
+  }
+}

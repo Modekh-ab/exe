@@ -1,0 +1,28 @@
+{
+    "variants": {
+        "facing=up":
+        {
+          "model": "exe:punk_dirt"
+        },
+    
+        "facing=south":
+        {
+          "model": "exe:punk_dirt"
+        },
+    
+        "facing=east":
+        {
+          "model": "exe:punk_dirt","y":270
+        },
+    
+        "facing=west":
+        {
+          "model": "exe:punk_dirt","y":90
+        },
+    
+        "facing=north":
+        {
+          "model": "exe:punk_dirt","y":180
+        }
+    }
+}

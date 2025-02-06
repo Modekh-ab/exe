@@ -5,7 +5,7 @@ import appeng.api.features.IGrinderRecipe;
 import appeng.api.features.IGrinderRecipeBuilder;
 import appeng.api.features.IGrinderRegistry;
 import net.minecraft.item.ItemStack;
-import net.modekh.exe.init.ItemRegistry;
+import net.modekh.exe.registry.ItemRegistry;
 
 public class CommonUtils {
     public static void loadGrinderRecipes() {

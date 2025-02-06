@@ -1,0 +1,28 @@
+{
+    "result": {
+        "item": "exe:exe_helmet"
+    },
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " H ",
+        "C#A",
+        " P "
+    ],
+    "key": {
+        "#": {
+            "item": "divinerpg:angelic_helmet"
+        },
+        "H": {
+            "item": "divinerpg:healing_stone"
+        },
+        "C": {
+            "item": "exe:exe_crystal"
+        },
+        "P": {
+            "item": "exe:punk_dirt"
+        },
+        "A": {
+            "item": "divinerpg:kraken_skin"
+        }
+    }
+}

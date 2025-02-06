@@ -1,0 +1,24 @@
+{
+    "result": {
+        "item": "exe:punk_dirt_chest"
+    },
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "DMD",
+        "M#M",
+        "DMD"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:chest"
+        },
+        "D": {
+            "item": "minecraft:dirt",
+            "data": 0
+        },
+        "M": {
+            "item": "biomesoplenty:mud",
+            "data": 0
+        }
+    }
+}
