@@ -20,14 +20,14 @@ So, mod adds **'exe' armor** which provides flying and high durability index, **
 ## ⚙️ Mod Content
 
 <details>
-<summary>attention - spoiler</summary>
+<summary>Stuff here</summary>
   
 - `Digital Terminal` : very begginning; using this **on ME Security Station** from `AE2` gives access to dangerous `skinten.exe` file, after 2 uses **exe stone** spawns;
 - `Exe Stone` : has craft related to `AE2` to obtain **4 exe crystals**;
 - `Exe Crystal` : one of catalysts in armor parts crafts;
-- `Dirt Chist 6686!` : may be crafted from mud (from `Biomes O' Plenty` mod) and, dirt and chest; contains 4 **punk dirts**;
-- `Punk Dirt` [placeable] : one of catalysts in armor parts crafts;
-- `Exe Armor` [4 parts] : may be crafted from **catalysts** mentioned above, **angelic** armor parts, and some other artifacts (like special stones or other rare drop from `Divine RPG` or unique Minecraft stuff).
+- `Dirt Chist 6686!` : may be crafted from mud (from `Biomes O' Plenty` mod), dirt and chest; contains 4 **punk dirts**;
+- `Punk Dirt` _[placeable]_ : one of catalysts in armor parts crafts;
+- `Exe Armor` _[4 parts]_ : may be crafted from **catalysts** mentioned above, **angelic** armor parts, and some other artifacts (like special stones or other rare drop from `Divine RPG` or unique Minecraft stuff).
   
 </details>
 
